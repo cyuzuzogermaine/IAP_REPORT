@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+fieldset{
+    background-color: aquamarine;
+    width: 500px;
+    padding: 30%;
+    margin: 30%;
+    height: 500px;
+    border-radius: 30px;
+
+}
+input{
+    border-radius: 50px;
+    color: rgb(214, 164, 164);
+}
+
+
+
+    </style>
+    <script>
+        function  simple() 
+        {
+     var first=document.getElementById("a").value;
+     var last=document.getElementById("b").value;
+     var user=document.getElementById("c").value;
+     var email= document.getElementById("d").value;
+     var password= document.getElementById("e").value;
+     var confirmpassword=document.getElementById("f").value;
+     if (firstname.value=="")
+     firstname.style .boader="sold 19px red"
+            {
+                document.getElementById("firstname").innerHTML="**please enter  first name**";
+                return false;
+        }
+      elseif (secondname.value=="")
+     secondname.style .boader="sold 19px red"
+            {
+                document.getElementById("lastname").innerHTML="*please enter  last name*";
+                return false;
+        }    
+        
+        if (username.value=="")
+     username.style .boader="sold 19px red"
+            {
+                document.getElementById("username").innerHTML="*please enter   name";
+                return false;
+        }     
+        
+
+    }
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+  <form onsubmit="return simple();" autocomplete="off">
+    <center>
+     <label >first name</label>
+     <input type="text" placeholder="enter first name" id="a">
+     <span id="firstname"style="color:red;" > </span>
+     <br>
+     <label >last name</label>
+     <input type="text" name="" id="b" placeholder="enter last">
+     <span id="lastname"style="color:red;"> </span>
+     <br>
+     <label>username</label>
+     <input type="text" id="c" placeholder="enter user name"> 
+     <span id="message"style="color:red;" > </span>
+     <br>
+     <label >email</label>
+     <input type="email" id="d" placeholder="enter email">
+     <span id="message"style="color:red;" > </span>
+     <br>
+     <label>password</label>
+     <input type="password" id="e" placeholder="enter password">
+     <span id="message"style="color:red;" > </span>
+     <br>
+     <label >confirm password</label>
+     <input type="text" id="f" placeholder="enter confirm password">
+     <span id="message"style="color:red;" > </span>
+     <br>
+     <button type="submit">register</button>
+    </center>
+  </form>  
+</body>
+</fieldset>
+</html>

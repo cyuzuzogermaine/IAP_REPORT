@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        h1{
+            color: rgb(1, 7, 5);
+            border-radius: 40px;
+
+        }
+       
+        
+       fieldset     {
+        background-color:  rgb(51, 158, 158);
+            color:black;  
+            border-radius: 30px; 
+            border-radius: 30cm; 
+            height: 300px;
+            width: 100px;
+            padding: 40px;
+            margin: 40px;
+            text-align: center;
+            }
+            button{
+            color: black;
+                border-radius: 30px;
+            }
+            input{
+                color:rgb(96, 160, 160);
+                border-radius: 30px;
+            }
+            .inp:hover:{
+            color: black;
+            padding: 1cm;
+            width: 10px;
+            height: 10pxs;
+        }
+        
+    </style>
+    <script>
+  functionmsg()
+  {
+    var email=document.getElementById("a").value;
+        var password=document.getElementById("b").value;
+
+        if(email=="")
+        {
+            alert("please enter your first name");
+            return false;
+        }
+        
+  }
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="cyuzuzo"></p>
+    <script>
+      functionmyFunction(s1,s2,s3,s4)
+      {
+          return s1*s2*s3*s4;
+      }
+      let result=myFunction(4,2,2,2)
+      document.getElementById("cyuzuzo").innerHTML=result;
+    </script>
+ <form onclick="msg();" autocomplete="off">
+    <fieldset>
+        <center>
+            <h1><u><b>registration form</b></u></h1>
+            <label>first name:</label>
+            <input type="text"id="a" placeholder="enter your first name"><BR><BR>
+            <label>last name:</label>
+            <input type="text"id="b" placeholder="enter  your last name"><BR><BR>
+            <label>address:</label>
+            <select id="c" type="address"> 
+                <option value="bugesera">bugesera</option>
+                <option value="bugesera">nyanza</option>  
+                <option value="bugesera">muhanga</option>  
+                 <option value="bugesera">rubavu</option>
+            </select><BR><BR>
+                <label>date:</label>
+                <input type="date" id="d" placeholder="enteryour clear date"><BR><BR>
+                <button class="a" onclick="msg();">login</button>
+        </center>
+    </fieldset>
+    <body>
+      <table>
+        <table border="1">
+            <tr>
+                <th>no</th>
+                <th>name</th>
+                <th>adress</th>
+                <th>class</th>
+                <th>school</th>
+                <th colspan="2">tel</th>
+                <th span="2">countrie</th>
+            <th>marks</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>cyuzuzo</td>
+                <td>bugesera</td>
+                <td>level3 swd</td>
+                <td>gikonko</td>
+                <td>0786303876</td>
+              <td>  0793203864</td>
+              <td rowspan="2">rwanda</td>
+              <td>50%</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>dam</td>
+                <td>muhanga</td>
+                <td>level5 masonary</td>
+                <td>gicumbi</td>
+                <td>0782216336</td>
+              <td>  0733203040</td>
+              <td>30%</td>
+            </tr>
+      </table>  
+    </body>  
+ </form>   
+</body>
+</html>
